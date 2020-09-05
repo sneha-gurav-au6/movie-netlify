@@ -1,0 +1,45 @@
+/* .main {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.costume {
+    width: 80vh;
+    height: 3rem;
+}
+/* .img {
+    background-size: cover;
+    background-size: contain;
+}
+.form {
+} */
+
+.wrapper {
+    /* layout */
+    width: 100%;
+
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+.slide {
+    /* layout */
+    height: 100vh;
+    min-width: 100vh;
+    flex: 1;
+    display: flex;
+    /* content styling OPTIONAL*/
+    align-items: center;
+    justify-content: center;
+    padding: 10vh;
+    /* background styling */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.a {
+    background-color: red;
+    background-image: url("../img/slider-bg.jpg");
+    height: 150px;
+}

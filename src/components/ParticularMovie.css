@@ -1,0 +1,27 @@
+.main{
+    background-color: rgba(0, 0, 0, 0.7);
+   display: flex;
+}
+.main img{
+    height: 400px;
+    width: 250px;
+    border-radius: 5%;
+}
+.text{
+    flex:4;
+    padding-left: 50px;
+    
+}
+.im{
+    flex:2
+}
+.box1{
+height: 35px;
+width: 250px;
+background-color: grey;
+border:1px solid black;
+color: black;
+border-radius: 5%;
+margin-top: 5px;
+
+}
