@@ -85,6 +85,7 @@ class SearchResult extends Component {
                                 </div>
                                 <button onClick={this.handleId} id={p.id}>Details</button>
                             </div>
+                            <br/><br/>
                         </div>
                     ))}
                 </div>

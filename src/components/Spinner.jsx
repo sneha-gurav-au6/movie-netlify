@@ -25,7 +25,7 @@ export default function Spinner() {
         
       </div>
       <div className="desc">
-        <h2>Ooops No data Found!</h2>
+        {/* <h2>Ooops No data Found!</h2> */}
         {/* redirecting to home page */}
         <button
           // onClick={() => {
